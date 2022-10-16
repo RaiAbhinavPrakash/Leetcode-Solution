@@ -27,7 +27,7 @@ public:
         {
             temp = temp->next;
         }
-        ListNode *ans = new ListNode(temp->next->val); 
+        ListNode *ans = temp->next; 
         temp->next = NULL;
         ans->next = head;
         return ans;
