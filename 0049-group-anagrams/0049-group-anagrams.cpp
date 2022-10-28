@@ -13,12 +13,7 @@ public:
         }
         for(auto it:mp)
         {
-            vector<string>v;
-            for(int i = 0; i<it.second.size(); i++)
-            {
-                v.push_back(it.second[i]);
-            }
-            ans.push_back(v);
+            ans.push_back(it.second);
         }
         return ans;
     }
