@@ -5,7 +5,6 @@ public:
         
         vector<vector<string>>ans;
         map<string,vector<string>>mp;
-        map<string,int>m;
         for(int i = 0; i<str.size(); i++)
         {
             string k = str[i];
