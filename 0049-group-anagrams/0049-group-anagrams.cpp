@@ -9,14 +9,7 @@ public:
         {
             string k = str[i];
             sort(k.begin(),k.end());
-            if(mp.find(k) != mp.end())
-            {
-                mp[k].push_back(str[i]);
-            }
-            else
-            {
-                mp[k].push_back(str[i]);
-            }
+            mp[k].push_back(str[i]);
         }
         for(auto it:mp)
         {
