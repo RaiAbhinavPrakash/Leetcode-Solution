@@ -18,7 +18,6 @@ public:
             swap(s[i], s[s.size()-i-1]);
         }
         if(s.size() == 10 && s>"2147483647") return 0;
-        if(x<0 && s.size() == 10 && s>"2147483648") return 0;
         int ans = stoi(s);
         if(x<0) ans *= -1;
         return ans;
