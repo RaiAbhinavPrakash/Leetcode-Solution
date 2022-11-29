@@ -1,9 +1,6 @@
 class RandomizedSet {
 public:
     set<int>s;
-    RandomizedSet() {
-        
-    }
     
     bool insert(int val) {
         if(s.find(val) != s.end())
