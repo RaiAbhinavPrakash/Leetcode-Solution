@@ -42,8 +42,6 @@ class Solution{
                 while(it.second--) cons += it.first;
             }
             
-            // if(vc>cc && vowel[0]>cons[0]) return "-1";
-            // else if(vc<cc && vowel[0]<cons[0]) return "-1";
             int i = 0, j = 0, f = 0;
             if(vc>cc)
             {
